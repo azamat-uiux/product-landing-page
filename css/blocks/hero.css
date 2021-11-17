@@ -1,0 +1,27 @@
+.hero {
+  padding: 5.25rem 0;
+}
+
+.hero > .container {
+  padding-top: 48px;
+}
+
+.hero__row {
+  padding-top: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__column {
+  text-align: center;
+}
+
+.form__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-size: 40px;
+  line-height: calc(60 / 40 * 100%);
+}

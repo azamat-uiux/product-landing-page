@@ -1,0 +1,27 @@
+/* HEADER */
+.header {
+  position: relative;
+}
+
+.header__navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1020;
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 10%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.header__navbar > .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}

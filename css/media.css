@@ -45,3 +45,16 @@
     max-width: 1320px;
   }
 }
+
+@media (max-width: 1200px) {
+  .hero__title {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}

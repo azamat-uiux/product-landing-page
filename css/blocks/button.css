@@ -8,9 +8,7 @@
   line-height: calc(24 / 16 * 100%);
   padding: 0 24px;
   transition: 0.3s ease;
-  border: 1px solid var(--border);
-  color: var(--text-deep);
-
+  border: 1px solid transparent;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -18,9 +16,56 @@
   background-color: transparent;
 }
 
+.actions__button {
+  border: 1px solid var(--border);
+  color: var(--text-deep);
+}
 .actions__button:hover,
 .actions__button:focus {
   background: var(--accent);
   color: var(--white);
   border-color: transparent;
+}
+
+.form__accent {
+  margin-bottom: 0.5rem;
+}
+
+.button-accent {
+  background: var(--accent);
+  color: var(--white);
+}
+
+.button-default {
+  text-decoration: underline;
+  color: var(--accent);
+}
+.button-default img {
+  margin-right: 8.5px;
+}
+
+.btn-animation {
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #14b29f
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }

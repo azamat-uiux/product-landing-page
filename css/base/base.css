@@ -3,11 +3,12 @@ body {
   font-size: var(--regular-text);
   color: var(--text);
   min-width: 320px;
-  position: relative;
   overflow-x: hidden;
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   width: 100%;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -15,9 +16,16 @@ body {
   margin-left: auto;
 }
 
-.header__navbar > .container {
+.row {
   display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.column {
+  position: relative;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
 }
