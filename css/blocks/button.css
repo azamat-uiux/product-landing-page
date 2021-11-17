@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 43px;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: calc(24 / 16 * 100%);
+  padding: 0 24px;
+  transition: 0.3s ease;
+  border: 1px solid var(--border);
+  color: var(--text-deep);
+
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+}
+
+.actions__button:hover,
+.actions__button:focus {
+  background: var(--accent);
+  color: var(--white);
+  border-color: transparent;
+}

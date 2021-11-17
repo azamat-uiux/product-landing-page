@@ -1,0 +1,23 @@
+/* USER VARIABLES SECTION */
+:root {
+  --white: #fff;
+  --accent: #02897a;
+  --text: #22343d;
+  --text-dark: #252b42;
+  --text-deep: #173a56;
+  --text-light: #737373;
+  --light-bg: #efefef;
+  --light-green: #edfffc;
+  --shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  --border: #bcd0e5;
+  --radius-sm: 4px;
+  --radius-md: 5px;
+  --radius-lg: 8px;
+  --radius-xl: 26.5px;
+  --radius-xxl: 32px;
+  --user-font: poppins-wt, sans-serif;
+  --system-font: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --regular-text: 16px;
+  --small-text: 14px;
+  --transition: 0.25s ease-out;
+}

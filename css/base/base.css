@@ -1,0 +1,23 @@
+body {
+  font-family: var(--user-font);
+  font-size: var(--regular-text);
+  color: var(--text);
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__navbar > .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
