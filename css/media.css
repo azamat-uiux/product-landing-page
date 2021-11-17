@@ -2,18 +2,38 @@
   .container {
     max-width: 540px;
   }
+	.form__buttons {
+		flex-direction: row;
+	}
+	.form__accent {
+		margin-bottom: 0;
+		margin-right: .5rem;
+	}
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+	.hero__title {
+		margin-bottom: 1.5rem;
+	}
+	.hero__subtitle {
+		margin-bottom: 1.5rem;
+	}
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+	.column {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.hero__column {
+		text-align: left;
+	}
   .header__navbar {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -38,6 +58,10 @@
   .container {
     max-width: 1140px;
   }
+	.column {
+		flex: 0  0 41.66667%;
+		max-width: 41.66667%;
+	}
 }
 
 @media (min-width: 1400px) {
