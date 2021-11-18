@@ -47,3 +47,8 @@ h6 {
 p {
   margin-bottom: 1rem;
 }
+
+svg {
+	overflow: hidden;
+	vertical-align: middle;
+}

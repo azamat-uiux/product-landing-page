@@ -1,22 +1,32 @@
 .toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
+	position: relative;
+  padding: 0;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: none;
 }
 
-.toggler__icon {
-  background-image: url("../../images/toggler.svg");
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+.toggler .icon-sm {
+  height: 1.5rem;
+}
+
+.toggler svg {
+	transition: .2s ease-in-out;
+}
+
+.toggler .icon {
+	flex-shrink: 0;
+	width: auto;
+}
+
+.toggler .toggler-close {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.toggler[aria-expanded="false"] .toggler-close {
+	opacity: 0;
+	transform: scale(0.5) translateX(100%);
 }
