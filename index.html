@@ -10,71 +10,140 @@
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-      <header class="header">
-        <nav class="header__navbar">
-          <div class="container">
-            <a class="header__brand brand" href="#">
-              <img class="brand__img" src="images/logo.svg" alt="" />
-              <span>Product</span>
-            </a>
-            
+    <header class="header">
+      <nav class="header__navbar">
+        <div class="container">
+          <a class="header__brand brand" href="#">
+            <img class="brand__img" src="images/logo.svg" alt="" />
+            <span>Product</span>
+          </a>
+
+          <div class="header__actions actions">
+            <ul class="actions__list">
+              <li class="actions__item">
+                <a class="actions__link" href="">Sign&nbsp;Up</a>
+              </li>
+            </ul>
+
+            <a class="actions__accent" href="">Sign&nbsp;In</a>
 
             <button class="toggler">
-              <span class="toggler__icon"></span>
+							<!-- TOGGLER OPEN -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="injected-svg navbar-toggler-open icon icon-sm"
+                data-src="https://trengo.com/themes/version2/assets/img/icons/interface/icon-menu.svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M3 12H21"
+                  stroke="#2C3038"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M3 6H21"
+                  stroke="#2C3038"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M3 18H21"
+                  stroke="#2C3038"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+
+							<!-- TOGGLER CLOSE -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="injected-svg navbar-toggler-close icon icon-sm"
+                data-src="https://trengo.com/themes/version2/assets/img/icons/interface/icon-x.svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M18 6L6 18"
+                  stroke="#2C3038"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M6 6L18 18"
+                  stroke="#2C3038"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
             </button>
-
-            <div class="header__menu menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="#" class="menu__link active">Product</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Customers</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Pricing</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Resources</a>
-                </li>
-              </ul>
-              <form action="" class="header__actions actions">
-                <button class="actions__button button">Sign&nbsp;Up</a>
-                <button class="actions__button button">Sign&nbsp;In</a>
-              </form>
-            </div>
           </div>
-        </nav>
-      </header>
 
-
-      <section class="hero">
-        <div class="container">
-          <div class="hero__row row">
-            <div class="hero__column column">
-              <h1 class="hero__title">Delight your customers on their favorite channels</h1>
-              <p class="hero__subtitle">Discover Trengo, the omnichannel communication platform that unifies all messaging channels into one single view. Make customer communication easy.</p>
-
-              <form action="" class="hero__form form">
-                <div class="form__buttons">
-                  <button class="form__accent button-accent button btn-animation">Get Started</button>
-                  <button class="form__default button-default button">
-                    <img src="images/play.svg" alt="">
-                    Watch the Video
-                  </button>
-                </div>
-              </form>
-              
-            </div>
-            <div class="column">
-							<a class="" href="#">
-								<img src="images/hero.svg" alt="">
-							</a>
-						</div>
+          <div class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link active">Product</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Customers</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Resources</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </nav>
+    </header>
 
+    <section class="hero">
+      <div class="container">
+        <div class="hero__row row">
+          <div class="hero__column column">
+            <h1 class="hero__title">
+              Delight your customers on their favorite channels
+            </h1>
+            <p class="hero__subtitle">
+              Discover Trengo, the omnichannel communication platform that
+              unifies all messaging channels into one single view. Make customer
+              communication easy.
+            </p>
+
+            <form action="" class="hero__form form">
+              <div class="form__buttons">
+                <button class="form__accent button-accent button btn-animation">
+                  Get Started
+                </button>
+                <button class="form__default button-default button">
+                  <img src="images/play.svg" alt="" />
+                  Watch the Video
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="column">
+            <a class="" href="#">
+              <img src="images/hero.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/common.js"></script>
   </body>

@@ -1,11 +1,8 @@
-.header__menu {
-  display: none;
-}
-
 .menu {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+	order: 3;
 }
 
 .menu__list {

@@ -3,3 +3,7 @@
   align-items: center;
   column-gap: 24px;
 }
+
+.actions__link {
+	display: none;
+}
