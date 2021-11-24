@@ -467,7 +467,7 @@ section {
 
 .form__buttons {
   display: flex;
-	row-gap: 20px;
+	row-gap: 21px;
   flex-direction: column;
 }
 
