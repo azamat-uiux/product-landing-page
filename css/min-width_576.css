@@ -1,0 +1,16 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+	.form__buttons {
+		flex-direction: row;
+		justify-content: center;
+	}
+	.form__accent {
+		margin-bottom: 0;
+		margin-right: .5rem;
+	}
+	.actions__link {
+		display: block;
+	}
+}

@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+	section {
+		padding: 6rem 0;
+	}
+  .container {
+    max-width: 720px;
+  }
+	.hero__title {
+		margin-bottom: 1.125rem;
+	}
+	.hero__subtitle {
+		margin-bottom: 2.813rem;
+	}
+}

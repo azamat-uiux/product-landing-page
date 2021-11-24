@@ -1,0 +1,14 @@
+@media (max-width: 991.98px) {
+	.header__brand {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.hero__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+	.header__navbar > .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

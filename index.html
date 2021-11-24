@@ -7,7 +7,15 @@
     <title>Product Landing Page</title>
 
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
+		<link rel="stylesheet" href="css/min-width_576.css" />
+		<link rel="stylesheet" href="css/min-width_768.css" />
+		<link rel="stylesheet" href="css/min-width_992.css" />
+		<link rel="stylesheet" href="css/min-width_1200.css" />
+		<link rel="stylesheet" href="css/min-width_1400.css" />
+    <link rel="stylesheet" href="css/max-width_1200.css" />
+		<link rel="stylesheet" href="css/max-width_991.css" />
+		<link rel="stylesheet" href="css/max-width_768.css" />
+		<link rel="stylesheet" href="css/max-width_520.css" />
   </head>
   <body>
     <header class="header">
@@ -21,14 +29,19 @@
           <div class="header__actions actions">
             <ul class="actions__list">
               <li class="actions__item">
-                <a class="actions__link button" href="">Sign&nbsp;Up</a>
+                <a class="actions__link button" href="#">Sign&nbsp;Up</a>
               </li>
             </ul>
 
-            <a class="actions__cta button" href="">Sign&nbsp;In</a>
+            <a class="actions__signin button" href="#">Sign&nbsp;In</a>
 
+						<button class="actions__theme">
+							<img src="images/dark-theme.svg" alt="Theme Switcher" />
+						</button>
+
+						<!-- TOGGLER BUTTON -->
             <button class="toggler" aria-expanded="false">
-							<!-- TOGGLER OPEN -->
+							<!-- TOGGLER OPEN SVG -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -62,7 +75,7 @@
                 ></path>
               </svg>
 
-							<!-- TOGGLER CLOSE -->
+							<!-- TOGGLER CLOSE SVG -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -114,29 +127,28 @@
     <section class="hero">
       <div class="container">
         <div class="hero__row row">
-          <div class="hero__column column">
+          <div class="hero__column column-xl-5 column-lg-6">
             <h1 class="hero__title">
-              Delight your customers on their favorite channels
+              Work at the speed of thought
             </h1>
             <p class="hero__subtitle">
-              Discover Trengo, the omnichannel communication platform that
-              unifies all messaging channels into one single view. Make customer
-              communication easy.
+              Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.
             </p>
 
-            <form action="" class="hero__form form">
+            <form class="hero__form form">
               <div class="form__buttons">
-                <button class="form__accent button-accent button btn-animation">
+                <button class="form__accent button">
                   Get Started
                 </button>
-                <button class="form__default button-default button">
+                <button class="form__default button">
                   <img src="images/play.svg" alt="" />
                   Watch the Video
                 </button>
               </div>
             </form>
           </div>
-          <div class="column">
+
+          <div class="column-lg-6">
             <a class="" href="#">
               <img src="images/hero.svg" alt="" />
             </a>

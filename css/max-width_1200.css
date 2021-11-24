@@ -1,0 +1,5 @@
+@media (max-width: 1200px) {
+  .hero__title {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+}
