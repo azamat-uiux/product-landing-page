@@ -467,16 +467,17 @@ section {
 
 .form__buttons {
   display: flex;
+	row-gap: 20px;
   flex-direction: column;
 }
 
 .form__accent {
-  margin-bottom: 0.5rem;
 	background: var(--accent);
   color: var(--white);
 }
 
 .form__default {
+	background-color: var(--light-bg);
 	text-decoration: underline;
   color: var(--accent);
 }
