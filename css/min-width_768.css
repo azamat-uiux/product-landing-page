@@ -1,4 +1,9 @@
 @media (min-width: 768px) {
+	.column-md-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
 	section {
 		padding: 6rem 0;
 	}

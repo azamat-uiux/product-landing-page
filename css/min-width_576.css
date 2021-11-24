@@ -2,6 +2,10 @@
   .container {
     max-width: 540px;
   }
+	.column-sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
 	.form__buttons {
 		flex-direction: row;
 		justify-content: center;

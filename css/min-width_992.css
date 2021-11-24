@@ -3,6 +3,11 @@
     max-width: 960px;
   }
 
+	.column-lg-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
 	.column-lg-6 {
 		flex: 0 0 50%;
 		max-width: 50%;
